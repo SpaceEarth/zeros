@@ -4,7 +4,7 @@ function countSimpleDouble(number, double) {
         .map((value, indx) => indx + 1)
         .filter((value) => {
           if (double) {
-            return value % 2 === number % 2
+            return value % 2 === number % 2;
           }
           return true;
         })
